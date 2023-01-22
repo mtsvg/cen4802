@@ -1,5 +1,11 @@
 
 class FibonacciSequence {
+    /**
+     *recursive method used to calculate the nth number in the fibonacci sequence
+     * @param n - the nth number in the fibonacci sequence
+     * @return the value of the nth number in the fibonacci sequence
+     * @author Matthew Savage 
+     */
     static int fibonacci(int n) {
 
         if (n <= 1)
